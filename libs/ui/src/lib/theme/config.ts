@@ -1,6 +1,7 @@
 export const palette = {
   black: '#000000',
   white: '#ffffff',
+  gray: '#fafafa',
 };
 
 export const globalConfig = {
@@ -12,15 +13,16 @@ export const globalConfig = {
     light: 300,
     regular: 400,
     normal: 500,
+    semiBold: 600,
     bold: 700,
-    black: 900,
   },
   boxShadows: {},
   fontSizes: {
-    xs: 10,
-    s: 12,
-    m: 14,
-    l: 16,
+    xxs: 10,
+    xs: 12,
+    s: 14,
+    m: 16,
+    l: 18,
     xl: 20,
     xxl: 24,
   },
