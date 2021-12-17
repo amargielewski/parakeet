@@ -3,6 +3,7 @@
   "projects": {
     "main": "apps/main",
     "main-e2e": "apps/main-e2e",
-    "ui": "libs/ui"
+    "ui": "libs/ui",
+    "ui-e2e": "apps/ui-e2e"
   }
 }
