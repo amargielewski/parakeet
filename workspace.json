@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "main": "apps/main",
+    "main-e2e": "apps/main-e2e",
+    "ui": "libs/ui"
+  }
 }
