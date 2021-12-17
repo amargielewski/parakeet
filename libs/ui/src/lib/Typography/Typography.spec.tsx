@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Typography from './Typography';
+import { HeadingDefault } from './Typography.style';
 
 describe('Typography', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Typography />);
+    const { baseElement } = render(<HeadingDefault />);
     expect(baseElement).toBeTruthy();
   });
 });
