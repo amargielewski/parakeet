@@ -1,23 +1,11 @@
 import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
+import { Route, Link, Routes } from 'react-router-dom';
 
-import { Route, Link } from 'react-router-dom';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+const StyledApp = styled.div``;
 
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="main" />
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
       <div role="navigation">
         <ul>
           <li>
@@ -28,26 +16,25 @@ export function App() {
           </li>
         </ul>
       </div>
-      <Route
-        path="/"
-        exact
-        render={() => (
-          <div>
-            This is the generated root route.{' '}
-            <Link to="/page-2">Click here for page 2.</Link>
-          </div>
-        )}
-      />
-      <Route
-        path="/page-2"
-        exact
-        render={() => (
-          <div>
-            <Link to="/">Click here to go back to root page.</Link>
-          </div>
-        )}
-      />
-      {/* END: routes */}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <div>
+              This is the generated root route.{' '}
+              <Link to="/page-2">Click here for page 2.</Link>
+            </div>
+          }
+        />
+        <Route
+          path="/page-2"
+          element={
+            <div>
+              <Link to="/">Click here to go back to root page.</Link>
+            </div>
+          }
+        />
+      </Routes>
     </StyledApp>
   );
 }
