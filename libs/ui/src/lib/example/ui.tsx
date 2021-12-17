@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
-export interface UiProps {}
+export type UiProps = {};
 
 const StyledUi = styled.div`
   color: pink;

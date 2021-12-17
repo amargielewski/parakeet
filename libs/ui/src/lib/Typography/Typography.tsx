@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 /* eslint-disable-next-line */
-export interface TypographyProps {}
+export type TypographyProps = {};
 
 const StyledTypography = styled.div`
   color: pink;

@@ -1,17 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-    body {
-        font-family: 'Nunito', sans-serif;
-    }
-
-`;
+import { ThemeProvider, themeVariant } from '../src/lib/theme/Theme';
 
 export const decorators = [
   (Story) => (
-    <>
-      <GlobalStyle />
+    <ThemeProvider theme={themeVariant.Default}>
       <Story />
-    </>
+    </ThemeProvider>
   ),
 ];
