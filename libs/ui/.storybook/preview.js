@@ -7,3 +7,15 @@ export const decorators = [
     </ThemeProvider>
   ),
 ];
+
+export const parameters = {
+  backgrounds: {
+    default: 'app',
+    values: [
+      {
+        name: 'app',
+        value: '#18192F',
+      },
+    ],
+  },
+};

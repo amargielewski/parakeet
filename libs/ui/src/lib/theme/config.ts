@@ -1,5 +1,9 @@
 export const palette = {
   black: '#000000',
+  cornflower_blue: '#605BFF',
+  mirage: '#18192F',
+  cornflower_blue_transparent: '#605BFF1A',
+  mirage_light: '#1E2038',
   white: '#ffffff',
   gray: '#fafafa',
 };
@@ -7,6 +11,8 @@ export const palette = {
 export const globalConfig = {
   borderRadius: {
     default: 8,
+    circle: 50,
+    medium: 10,
   },
   fontFamily: {},
   fontWeight: {
