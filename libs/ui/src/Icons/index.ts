@@ -1,3 +1,4 @@
+import { AddIcon } from './AddIcon';
 import { AnalyticsIcon } from './AnalyticsIcon';
 import { CalendarIcon } from './CalendarIcon';
 import { CategoryIcon } from './CategoryIcon';
@@ -13,6 +14,7 @@ import { ScheduleIcon } from './ScheduleIcon';
 import { SettingsIcon } from './SettingsIcon';
 
 export const icons = {
+  AddIcon: AddIcon,
   AnalyticsIcon: AnalyticsIcon,
   CalendarIcon: CalendarIcon,
   CategoryIcon: CategoryIcon,

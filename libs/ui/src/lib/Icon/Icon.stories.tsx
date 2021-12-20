@@ -9,4 +9,4 @@ export default {
 const Template: Story<IconProps> = (args) => <Icon {...args} />;
 
 export const Primary = Template.bind({});
-Primary.args = {};
+Primary.args = { name: 'AddIcon', size: 10 };

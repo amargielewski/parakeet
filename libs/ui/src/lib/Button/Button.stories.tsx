@@ -9,4 +9,11 @@ export default {
 const Template: Story<ButtonProps> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
-Primary.args = { children: 'Click me!!!' };
+Primary.args = {
+  children: 'Add Task',
+  icon: {
+    name: 'AddIcon',
+    position: 'left',
+    size: 10,
+  },
+};

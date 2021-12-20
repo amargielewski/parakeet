@@ -2,8 +2,11 @@ export const palette = {
   black: '#000000',
   cornflower_blue: '#605BFF',
   mirage: '#18192F',
+  magenta_blue: '#716CFF',
+  midnight_mirage: '#29293F',
   cornflower_blue_transparent: '#605BFF1A',
   mirage_light: '#1E2038',
+  dark_blue: '#2F3149',
   white: '#ffffff',
   gray: '#fafafa',
 };
