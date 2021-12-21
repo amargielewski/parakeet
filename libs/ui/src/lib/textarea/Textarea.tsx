@@ -14,7 +14,7 @@ const StyledTextarea = styled.textarea`
 `;
 
 export type TextareaProps = {
-  placeholder: string;
+  placeholder?: string;
 } & TextareaHTMLAttributes<HTMLTextAreaElement>;
 
 export const Textarea = ({ placeholder }: TextareaProps) => {
