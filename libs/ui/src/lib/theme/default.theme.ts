@@ -8,6 +8,8 @@ export const defaultTheme = {
     input_secondary: palette.mirage,
     input_font: palette.gray,
     input_tertiary: palette.gunmetal,
+    checkbox_border: palette.french_gray,
+    checkbox_checked: palette.dodger_blue,
   },
   ...globalConfig,
 };

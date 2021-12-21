@@ -5,12 +5,15 @@ export const palette = {
   ebony_clay: '#212332',
   gunmetal: '#2A2D3E',
   mirage: '#18192F',
+  french_gray: '#B3B3BF',
+  dodger_blue: '#605BFF',
 };
 
 export const globalConfig = {
   borderRadius: {
     default: 8,
     input_default: 10,
+    checkbox_default: 2,
   },
   fontFamily: {},
   fontWeight: {

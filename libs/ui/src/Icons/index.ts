@@ -12,6 +12,7 @@ import { NotificationIcon } from './NotificationIcon';
 import { ScheduleIcon } from './ScheduleIcon';
 import { SettingsIcon } from './SettingsIcon';
 import { SearchIcon } from './SearchIcon';
+import { CheckboxArrowIcon } from './CheckboxArrowIcon';
 
 export const icons = {
   AnalyticsIcon: AnalyticsIcon,
@@ -28,4 +29,5 @@ export const icons = {
   ScheduleIcon: ScheduleIcon,
   SettingsIcon: SettingsIcon,
   SearchIcon: SearchIcon,
+  CheckboxArrowIcon: CheckboxArrowIcon,
 };

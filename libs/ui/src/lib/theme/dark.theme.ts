@@ -9,6 +9,8 @@ export const darkTheme: ThemeType = {
     input_secondary: palette.mirage,
     input_tertiary: palette.gunmetal,
     input_font: palette.gray,
+    checkbox_border: palette.french_gray,
+    checkbox_checked: palette.dodger_blue,
   },
   ...globalConfig,
 };

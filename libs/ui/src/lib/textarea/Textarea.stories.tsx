@@ -3,7 +3,7 @@ import { Textarea, TextareaProps } from './Textarea';
 
 export default {
   component: Textarea,
-  title: 'Textarea',
+  title: 'Input & TextArea/Textarea',
 } as Meta;
 
 const Template: Story<TextareaProps> = (args) => <Textarea {...args} />;
