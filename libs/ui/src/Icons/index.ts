@@ -11,6 +11,7 @@ import { MessagesIcon } from './MessagesIcon';
 import { NotificationIcon } from './NotificationIcon';
 import { ScheduleIcon } from './ScheduleIcon';
 import { SettingsIcon } from './SettingsIcon';
+import { SearchIcon } from './SearchIcon';
 
 export const icons = {
   AnalyticsIcon: AnalyticsIcon,
@@ -26,4 +27,5 @@ export const icons = {
   NotificationIcon: NotificationIcon,
   ScheduleIcon: ScheduleIcon,
   SettingsIcon: SettingsIcon,
+  SearchIcon: SearchIcon,
 };

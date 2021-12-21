@@ -13,8 +13,13 @@ const IconWrapper = styled.div<IconTypes>`
 export type IconProps = {
   name: keyof typeof icons;
   size: number;
+  className?: string;
 };
 
-export const Icon = ({ name, size }: IconProps) => {
-  return <IconWrapper size={size}>{icons[name]()}</IconWrapper>;
+export const Icon = ({ name, size, className }: IconProps) => {
+  return (
+    <IconWrapper className={className} size={size}>
+      {icons[name]()}
+    </IconWrapper>
+  );
 };
