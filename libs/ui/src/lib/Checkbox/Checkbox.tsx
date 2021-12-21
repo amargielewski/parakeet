@@ -2,10 +2,7 @@ import { useState } from 'react';
 import styled, { css } from 'styled-components';
 import { Icon, IconProps } from '../Icon/Icon';
 import { InputHTMLAttributes } from 'react';
-export type CheckboxProps = {
-  icon: 'CheckboxArrowIcon';
-  changeChecked: boolean;
-} & InputHTMLAttributes<HTMLInputElement>;
+export type CheckboxProps = InputHTMLAttributes<HTMLInputElement>;
 
 const StyledCheckboxContainer = styled.div`
   display: inline-block;
@@ -44,7 +41,7 @@ const StyledCheckbox = styled.div<{
   ${({ checked }) => !checked && StyledUnchecked}
 `;
 
-export const Checkbox = ({ checked }: CheckboxProps) => {
+export const Checkbox = (): CheckboxProps => {
   const [isChecked, setIsChecked] = useState(false);
 
   return (
@@ -55,7 +52,6 @@ export const Checkbox = ({ checked }: CheckboxProps) => {
           if (isChecked) setIsChecked(false);
           if (!isChecked) setIsChecked(true);
         }}
-        checked={isChecked}
       >
         {isChecked && <Icon name="CheckboxArrowIcon" size={15} />}
       </StyledCheckbox>
