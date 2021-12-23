@@ -9,7 +9,7 @@ export type InputProps = {
   placeholder?: string;
   appearance?: AppereanceProps;
 } & InputHTMLAttributes<HTMLInputElement>;
-
+ 
 export const Input = ({
   type = 'text',
   icon,

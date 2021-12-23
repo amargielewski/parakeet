@@ -14,6 +14,9 @@ export const globalConfig = {
     default: 8,
     input_default: 10,
     checkbox_default: 2,
+    badge_default: 10,
+    badge_secondary: 22.5,
+    badge_tertiary: 3,
   },
   fontFamily: {},
   fontWeight: {

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
-import { AppereanceProps, InputProps } from './Input';
-import { Icon, IconProps } from '../Icon/Icon';
-import { InputHTMLAttributes, HTMLInputTypeAttribute } from 'react';
+import { AppereanceProps } from './Input';
+import { Icon } from '../Icon/Icon';
+import { HTMLInputTypeAttribute } from 'react';
 
 export const RemoveInputArrows = css`
   ::-webkit-inner-spin-button {

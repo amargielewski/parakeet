@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import styled, { css } from 'styled-components';
 import { InputHTMLAttributes } from 'react';
 import CheckedIcon from '../../Assets/CheckedIcon.svg';
@@ -10,7 +9,6 @@ const StyledInput = styled.input`
   appearance: none;
   background-color: transparent;
   margin: 0;
-
   width: 20px;
   height: 20px;
   color: ${({ theme }) => theme.colors.text_primary};
@@ -44,5 +42,5 @@ const StyledInput = styled.input`
 `;
 
 export const Checkbox = (props: CheckboxProps) => {
-  return <StyledInput type="checkbox" disabled />;
+  return <StyledInput type="checkbox" />;
 };
