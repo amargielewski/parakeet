@@ -1,3 +1,4 @@
+import { AddIcon } from './AddIcon';
 import { AnalyticsIcon } from './AnalyticsIcon';
 import { CalendarIcon } from './CalendarIcon';
 import { CategoryIcon } from './CategoryIcon';
@@ -15,6 +16,7 @@ import { SearchIcon } from './SearchIcon';
 import { CheckboxArrowIcon } from './CheckboxArrowIcon';
 
 export const icons = {
+  AddIcon: AddIcon,
   AnalyticsIcon: AnalyticsIcon,
   CalendarIcon: CalendarIcon,
   CategoryIcon: CategoryIcon,

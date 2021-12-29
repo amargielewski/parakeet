@@ -1,5 +1,12 @@
 export const palette = {
   black: '#000000',
+  cornflower_blue: '#605BFF',
+  mirage: '#18192F',
+  magenta_blue: '#716CFF',
+  midnight_mirage: '#29293F',
+  cornflower_blue_transparent: '#605BFF1A',
+  mirage_light: '#1E2038',
+  dark_blue: '#2F3149',
   white: '#ffffff',
   gray: '#fafafa',
   ebony_clay: '#212332',
@@ -17,6 +24,8 @@ export const globalConfig = {
     badge_default: 10,
     badge_secondary: 22.5,
     badge_tertiary: 3,
+    circle: 50,
+    medium: 10,
   },
   fontFamily: {},
   fontWeight: {
