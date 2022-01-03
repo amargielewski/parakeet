@@ -23,7 +23,7 @@ export const icons = {
   EditIcon: EditIcon,
   FacebookIcon: FacebookIcon,
   GoogleIcon: GoogleIcon,
-  IncoiceIcon: InvoiceIcon,
+  InvoiceIcon: InvoiceIcon,
   LogoIcon: LogoIcon,
   LogoutIcon: LogoutIcon,
   MessagesIcon: MessagesIcon,

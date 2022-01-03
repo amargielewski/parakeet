@@ -1,7 +1,6 @@
 export const palette = {
   black: '#000000',
   cornflower_blue: '#605BFF',
-  mirage: '#18192F',
   magenta_blue: '#716CFF',
   midnight_mirage: '#29293F',
   cornflower_blue_transparent: '#605BFF1A',
@@ -13,7 +12,7 @@ export const palette = {
   gunmetal: '#2A2D3E',
   mirage: '#18192F',
   french_gray: '#B3B3BF',
-  dodger_blue: '#605BFF',
+  malibu_light: '#80ABFF1a',
 };
 
 export const globalConfig = {
@@ -26,6 +25,8 @@ export const globalConfig = {
     badge_tertiary: 3,
     circle: 50,
     medium: 10,
+    sidebar_upgrade: 20,
+    sidebar_user: 12,
   },
   fontFamily: {},
   fontWeight: {

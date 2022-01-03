@@ -1,3 +1,5 @@
+import * as React from 'react';
+
 export const NotificationIcon = () => (
   <svg width="1em" height="1em" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
@@ -9,5 +11,3 @@ export const NotificationIcon = () => (
     />
   </svg>
 );
-
-export default NotificationIcon;

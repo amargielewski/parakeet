@@ -17,7 +17,9 @@ export const defaultTheme = {
     input_tertiary: palette.gunmetal,
     input_font: palette.gray,
     checkbox_border: palette.french_gray,
-    checkbox_checked: palette.dodger_blue,
+    checkbox_checked: palette.cornflower_blue,
+    sidebar_primary: palette.mirage_light,
+    sidebar_upgrade_background: palette.malibu_light,
   },
   ...globalConfig,
 };

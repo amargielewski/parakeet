@@ -19,6 +19,7 @@ export type BadgeColor =
   | '#3A974C1A'
   | '#D11A2A1A'
   | '#F293391A';
+  
 
 export type BadgeSize = 'small' | 'medium' | 'large';
 
