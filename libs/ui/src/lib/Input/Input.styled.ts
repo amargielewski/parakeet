@@ -55,6 +55,6 @@ export const StyledInput = styled.input<{
   ${RemoveInputArrows}
 `;
 export const StyledInputWrapper = styled.div`
-  max-width: 350px;
+  width: 100%;
   position: relative;
 `;

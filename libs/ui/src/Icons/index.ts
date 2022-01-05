@@ -14,6 +14,7 @@ import { ScheduleIcon } from './ScheduleIcon';
 import { SettingsIcon } from './SettingsIcon';
 import { SearchIcon } from './SearchIcon';
 import { CheckboxArrowIcon } from './CheckboxArrowIcon';
+import { PasswordIcon } from './PasswordIcon';
 
 export const icons = {
   AddIcon: AddIcon,
@@ -32,4 +33,5 @@ export const icons = {
   SettingsIcon: SettingsIcon,
   SearchIcon: SearchIcon,
   CheckboxArrowIcon: CheckboxArrowIcon,
+  PasswordIcon: PasswordIcon,
 };

@@ -20,6 +20,9 @@ export const defaultTheme = {
     checkbox_checked: palette.cornflower_blue,
     sidebar_primary: palette.mirage_light,
     sidebar_upgrade_background: palette.malibu_light,
+    auth_sidebar: palette.mirage_light,
+    auth_primary: palette.mirage,
+    auth_sidebar_break_line: palette.white_transparent,
   },
   ...globalConfig,
 };

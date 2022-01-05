@@ -7,20 +7,21 @@ import { Home } from './app/home';
 
 import styled from 'styled-components';
 import App from './app/app';
+import { Login } from './views/Login/Login';
+import { Signup } from './views/Signup/Signup';
+import { AuthLayout } from './components/_layout/AuthLayout/AuthLayout';
 
-const StyledAppWrapper = styled.div`
-  height: 10000px;
-`;
+const StyledAppWrapper = styled.div``;
 
 ReactDOM.render(
   <StrictMode>
     <BrowserRouter>
       <ThemeProvider theme={themeVariant.Default}>
         <StyledAppWrapper>
-          <Sidebar />
-          <App />
           <Routes>
-            <Route path={'/home'} element={<Home />} />
+            <Route path="/" element={<AuthLayout />} />
+            <Route path={'/login'} element={<Login />} />
+            <Route path={'/signup'} element={<Signup />} />
           </Routes>
         </StyledAppWrapper>
       </ThemeProvider>

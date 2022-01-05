@@ -13,6 +13,7 @@ export const palette = {
   mirage: '#18192F',
   french_gray: '#B3B3BF',
   malibu_light: '#80ABFF1a',
+  white_transparent: '#ffffff1a',
 };
 
 export const globalConfig = {
