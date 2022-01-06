@@ -1,15 +1,14 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Sidebar } from '@parakeet/ui';
 import { ThemeProvider, themeVariant } from '@parakeet/ui';
-import { Home } from './app/home';
 
 import styled from 'styled-components';
 import App from './app/app';
 import { Login } from './views/Login/Login';
 import { Signup } from './views/Signup/Signup';
 import { AuthLayout } from './components/_layout/AuthLayout/AuthLayout';
+import { Recovery } from './views/PasswordRecovery/Recovery';
 
 const StyledAppWrapper = styled.div``;
 
@@ -22,6 +21,7 @@ ReactDOM.render(
             <Route path="/" element={<AuthLayout />} />
             <Route path={'/login'} element={<Login />} />
             <Route path={'/signup'} element={<Signup />} />
+            <Route path={'/recovery'} element={<Recovery />} />
           </Routes>
         </StyledAppWrapper>
       </ThemeProvider>

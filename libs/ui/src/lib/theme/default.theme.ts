@@ -1,3 +1,4 @@
+import { badgePalleteConfig } from '../Badge/Badge.styled';
 import { palette, globalConfig } from './config';
 
 export const defaultTheme = {
@@ -23,6 +24,7 @@ export const defaultTheme = {
     auth_sidebar: palette.mirage_light,
     auth_primary: palette.mirage,
     auth_sidebar_break_line: palette.white_transparent,
+    recovery_primary: palette.mirage_light,
   },
   ...globalConfig,
 };

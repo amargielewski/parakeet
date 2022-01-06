@@ -47,9 +47,15 @@ export const StyledCheckboxText = styled(Label)`
   margin-left: 10px;
 `;
 
-export const StyledResetText = styled(Label)``;
+export const StyledResetText = styled(Label)`
+  text-decoration: none;
+`;
 
 export const StyledLoginLink = styled(Link)`
+  text-decoration: none;
+`;
+
+export const StyledResetLink = styled(Link)`
   text-decoration: none;
 `;
 
@@ -78,7 +84,9 @@ export const LoginForm = () => {
           <Checkbox size={20} />
           <StyledCheckboxText>Remember me</StyledCheckboxText>
         </StyledCheckboxContainer>
-        <StyledResetText>Reset Password?</StyledResetText>
+        <StyledResetLink to="/recovery">
+          <StyledResetText>Reset Password?</StyledResetText>
+        </StyledResetLink>
       </StyledResetPasswordContainer>
       <StyledButton appearance="primary">Create account</StyledButton>
       <StyledLoginLink to="/signup">

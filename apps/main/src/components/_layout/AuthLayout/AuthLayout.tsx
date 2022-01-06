@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { JSXElementConstructor, PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 const StyledWrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.auth_primary};
   height: 100vh;
