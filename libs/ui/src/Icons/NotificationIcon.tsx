@@ -11,5 +11,3 @@ export const NotificationIcon = () => (
     />
   </svg>
 );
-
-export default NotificationIcon;

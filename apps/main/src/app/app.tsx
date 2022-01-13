@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { Route, Link, Routes } from 'react-router-dom';
 
-const StyledApp = styled.div``;
+
+const StyledApp = styled.div`
+  margin-left: 218px;
+`;
 
 export function App() {
   return (

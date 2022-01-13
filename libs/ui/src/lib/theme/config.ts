@@ -1,12 +1,38 @@
 export const palette = {
   black: '#000000',
+  cornflower_blue: '#605BFF',
+  magenta_blue: '#716CFF',
+  midnight_mirage: '#29293F',
+  cornflower_blue_transparent: '#605BFF1A',
+  mirage_light: '#1E2038',
+  dark_blue: '#2F3149',
   white: '#ffffff',
   gray: '#fafafa',
+  ebony_clay: '#212332',
+  gunmetal: '#2A2D3E',
+  mirage: '#18192F',
+  french_gray: '#B3B3BF',
+  malibu_light: '#80ABFF1a',
+  white_transparent: '#ffffff1a',
+  alto_transpartent: '#d3d3d31a',
+  alto_light: '#d3d3d380',
+  alizarin_crimson_transparent: '#E71D364D',
+  athens_gray_transparent: '#F7F7F840',
 };
 
 export const globalConfig = {
   borderRadius: {
     default: 8,
+    input_default: 10,
+    checkbox_default: 2,
+    badge_default: 10,
+    badge_secondary: 22.5,
+    badge_tertiary: 3,
+    circle: 50,
+    medium: 10,
+    sidebar_upgrade: 20,
+    sidebar_user: 12,
+    modal_center_default: 10,
   },
   fontFamily: {},
   fontWeight: {
