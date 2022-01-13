@@ -6,3 +6,4 @@ export * from './lib/Input/Input';
 export * from './lib/Icon/Icon';
 export * from './lib/Typography/Typography.style';
 export * from './lib/Checkbox/Checkbox';
+export * from './lib/textarea/Textarea';

@@ -1,4 +1,3 @@
-import { badgePalleteConfig } from '../Badge/Badge.styled';
 import { palette, globalConfig } from './config';
 
 export const defaultTheme = {
@@ -25,6 +24,13 @@ export const defaultTheme = {
     auth_primary: palette.mirage,
     auth_sidebar_break_line: palette.white_transparent,
     recovery_primary: palette.mirage_light,
+    modal_primary: palette.ebony_clay,
+    product_modal_button: palette.white,
+    modal_photo_input_primary: palette.white,
+    modal_photo_input_secondary: palette.athens_gray_transparent,
+    select_focused_background: palette.alto_transpartent,
+    select_selected_background: palette.alto_light,
+    customer_modal_button: palette.alizarin_crimson_transparent,
   },
   ...globalConfig,
 };

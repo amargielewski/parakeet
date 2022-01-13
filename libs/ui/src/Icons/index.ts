@@ -15,6 +15,10 @@ import { SettingsIcon } from './SettingsIcon';
 import { SearchIcon } from './SearchIcon';
 import { CheckboxArrowIcon } from './CheckboxArrowIcon';
 import { PasswordIcon } from './PasswordIcon';
+import { LeftArrowIcon } from './LeftArrowIcon';
+import { CameraIcon } from './CameraIcon';
+import { UploadIcon } from './UploadIcon';
+import { CloseIcon } from './CloseIcon';
 
 export const icons = {
   AddIcon: AddIcon,
@@ -34,4 +38,8 @@ export const icons = {
   SearchIcon: SearchIcon,
   CheckboxArrowIcon: CheckboxArrowIcon,
   PasswordIcon: PasswordIcon,
+  LeftArrowIcon: LeftArrowIcon,
+  CameraIcon: CameraIcon,
+  UploadIcon: UploadIcon,
+  CloseIcon: CloseIcon,
 };

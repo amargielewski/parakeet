@@ -14,6 +14,10 @@ export const palette = {
   french_gray: '#B3B3BF',
   malibu_light: '#80ABFF1a',
   white_transparent: '#ffffff1a',
+  alto_transpartent: '#d3d3d31a',
+  alto_light: '#d3d3d380',
+  alizarin_crimson_transparent: '#E71D364D',
+  athens_gray_transparent: '#F7F7F840',
 };
 
 export const globalConfig = {
@@ -28,6 +32,7 @@ export const globalConfig = {
     medium: 10,
     sidebar_upgrade: 20,
     sidebar_user: 12,
+    modal_center_default: 10,
   },
   fontFamily: {},
   fontWeight: {
