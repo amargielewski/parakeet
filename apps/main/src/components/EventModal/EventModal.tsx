@@ -2,7 +2,7 @@ import { Icon, HeadingMedium } from '@parakeet/ui';
 import { ModalLayout } from '../_layout/ModalLayout.tsx/ModalLayout';
 import styled from 'styled-components';
 import { useModalContext } from '../../hooks/useModalContext';
-
+import { ModalTabs } from './ModalTabs';
 const StyledWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -30,6 +30,13 @@ const StyledHeadingButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
+`;
+
+const StyledTabContainer = styled.div`
+  width: 100%;
+  align-self: flex-start;
+  margin-bottom: 20px;
 `;
 
 export const EventModal = () => {
@@ -44,6 +51,9 @@ export const EventModal = () => {
             <Icon name="CloseIcon" size={10} />
           </StyledHeadingButton>
         </StyledHeadingContainer>
+        <StyledTabContainer>
+          <ModalTabs />
+        </StyledTabContainer>
       </StyledWrapper>
     </ModalLayout>
   );

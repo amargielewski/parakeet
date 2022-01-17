@@ -18,6 +18,7 @@ export const palette = {
   alto_light: '#d3d3d380',
   alizarin_crimson_transparent: '#E71D364D',
   athens_gray_transparent: '#F7F7F840',
+  salmon: '#FF8F6B',
 };
 
 export const globalConfig = {
@@ -33,6 +34,7 @@ export const globalConfig = {
     sidebar_upgrade: 20,
     sidebar_user: 12,
     modal_center_default: 10,
+    modal_event_tabs_default: 10,
   },
   fontFamily: {},
   fontWeight: {

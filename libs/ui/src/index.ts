@@ -7,3 +7,4 @@ export * from './lib/Icon/Icon';
 export * from './lib/Typography/Typography.style';
 export * from './lib/Checkbox/Checkbox';
 export * from './lib/textarea/Textarea';
+export * from './lib/Tabs/Tabs';

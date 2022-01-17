@@ -19,6 +19,8 @@ import { LeftArrowIcon } from './LeftArrowIcon';
 import { CameraIcon } from './CameraIcon';
 import { UploadIcon } from './UploadIcon';
 import { CloseIcon } from './CloseIcon';
+import { PeopleIcon } from './PeopleIcon';
+import { LocationIcon } from './LocationIcon';
 
 export const icons = {
   AddIcon: AddIcon,
@@ -42,4 +44,6 @@ export const icons = {
   CameraIcon: CameraIcon,
   UploadIcon: UploadIcon,
   CloseIcon: CloseIcon,
+  PeopleIcon: PeopleIcon,
+  LocationIcon: LocationIcon,
 };

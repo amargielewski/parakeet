@@ -29,7 +29,7 @@ const getPosition = {
 };
 
 export const smallModalSizeCss = css`
-  max-width: 370px;
+  max-width: 390px;
 `;
 export const defaultModalSizecss = css`
   max-width: 400px;

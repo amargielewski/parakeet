@@ -86,7 +86,7 @@ const resetCss = css`
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Nunito', sans-serif;
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
@@ -129,6 +129,7 @@ const resetCss = css`
 
   * {
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
   }
 `;
 

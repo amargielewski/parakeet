@@ -31,6 +31,8 @@ export const defaultTheme = {
     select_focused_background: palette.alto_transpartent,
     select_selected_background: palette.alto_light,
     customer_modal_button: palette.alizarin_crimson_transparent,
+    event_modal_tabs: palette.salmon,
+    date_range_picker_font_primary: palette.white,
   },
   ...globalConfig,
 };
