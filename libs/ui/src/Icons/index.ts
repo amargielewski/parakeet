@@ -23,6 +23,8 @@ import { PeopleIcon } from './PeopleIcon';
 import { LocationIcon } from './LocationIcon';
 import { ClockIcon } from './ClockIcon';
 import { SecondaryCalendarIcon } from './SecondaryCalendarIcon';
+import { CalendarLeftArrowIcon } from './CalendarLeftArrowIcon';
+import { CalendarRightArrowIcon } from './CalendarRightArrowIcon';
 
 export const icons = {
   AddIcon: AddIcon,
@@ -50,4 +52,6 @@ export const icons = {
   LocationIcon: LocationIcon,
   ClockIcon: ClockIcon,
   SecondaryCalendarIcon: SecondaryCalendarIcon,
+  CalendarLeftArrowIcon: CalendarLeftArrowIcon,
+  CalendarRightArrowIcon: CalendarRightArrowIcon,
 };

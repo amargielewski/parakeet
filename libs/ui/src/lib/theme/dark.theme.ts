@@ -34,6 +34,9 @@ export const darkTheme: ThemeType = {
     customer_modal_button: palette.alizarin_crimson_transparent,
     event_modal_tabs: palette.salmon,
     date_range_picker_font_primary: palette.white,
+    calendar_background_primary: palette.mirage_light,
+    calendar_background_secondary: palette.mirage,
+    calendar_background_tile_hover: palette.gray,
   },
   ...globalConfig,
 };
