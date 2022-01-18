@@ -1,4 +1,4 @@
-import { Button, Icon, Input, HeadingSmall } from '@parakeet/ui';
+import { Button, Icon, Input, HeadingSmall, HeadingTable } from '@parakeet/ui';
 import styled from 'styled-components';
 import DateTimeRangePicker from '@wojtekmaj/react-datetimerange-picker';
 
@@ -148,6 +148,50 @@ const StyledDateRangeText = styled(HeadingSmall)`
   font-size: 12px;
 `;
 
+const StyledDateTimeContainer = styled.div`
+  display: flex;
+  margin: 30px 0;
+`;
+
+const StyledTimeIconButton = styled.button`
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: ${({ theme }) => theme.colors.event_modal_tabs}0D;
+  border-radius: ${({ theme }) => theme.borderRadius.circle}px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const StyledContentContainer = styled.div`
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`;
+
+const StyledDateTimeText = styled(HeadingSmall)``;
+
+const StyledTimeZoneText = styled(HeadingTable)``;
+
+const StyledTimeButton = styled.button`
+  border: none;
+  background: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+`;
+
+const StyledTimeButtonText = styled(HeadingSmall)`
+  font-weight: 600;
+`;
+
+const StyledCalendarContainer = styled.div`
+  display: flex;
+  margin-top: 40px;
+`;
+
 export {
   StyledWrapper,
   StyledForm,
@@ -159,4 +203,12 @@ export {
   StyledButtonContainer,
   StyledDateTimeRange,
   StyledDateRangeText,
+  StyledDateTimeContainer,
+  StyledContentContainer,
+  StyledDateTimeText,
+  StyledTimeZoneText,
+  StyledTimeButtonText,
+  StyledTimeButton,
+  StyledTimeIconButton,
+  StyledCalendarContainer,
 };

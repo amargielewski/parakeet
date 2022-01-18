@@ -21,6 +21,8 @@ import { UploadIcon } from './UploadIcon';
 import { CloseIcon } from './CloseIcon';
 import { PeopleIcon } from './PeopleIcon';
 import { LocationIcon } from './LocationIcon';
+import { ClockIcon } from './ClockIcon';
+import { SecondaryCalendarIcon } from './SecondaryCalendarIcon';
 
 export const icons = {
   AddIcon: AddIcon,
@@ -46,4 +48,6 @@ export const icons = {
   CloseIcon: CloseIcon,
   PeopleIcon: PeopleIcon,
   LocationIcon: LocationIcon,
+  ClockIcon: ClockIcon,
+  SecondaryCalendarIcon: SecondaryCalendarIcon,
 };

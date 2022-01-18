@@ -1,4 +1,4 @@
-import { Icon, HeadingMedium } from '@parakeet/ui';
+import { Icon, HeadingMedium, Button } from '@parakeet/ui';
 import { ModalLayout } from '../_layout/ModalLayout.tsx/ModalLayout';
 import styled from 'styled-components';
 import { useModalContext } from '../../hooks/useModalContext';
@@ -11,7 +11,7 @@ const StyledWrapper = styled.div`
 `;
 
 const StyledHeadingContainer = styled.div`
-  margin-top: 40px;
+  margin: 40px 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +30,6 @@ const StyledHeadingButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
 `;
 
 const StyledTabContainer = styled.div`
@@ -38,6 +37,18 @@ const StyledTabContainer = styled.div`
   align-self: flex-start;
   margin-bottom: 20px;
 `;
+
+const StyledButtonContainer = styled.div`
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 40px;
+`;
+
+const StyledCloseButton = styled(Button)`
+  margin-right: 15px;
+`;
+
+const StyledSaveButton = styled(Button)``;
 
 export const EventModal = () => {
   const { isOpen, closeModal, openModal } = useModalContext();
@@ -54,6 +65,12 @@ export const EventModal = () => {
         <StyledTabContainer>
           <ModalTabs />
         </StyledTabContainer>
+        <StyledButtonContainer>
+          <StyledCloseButton appearance="secondary" size="small">
+            Close
+          </StyledCloseButton>
+          <StyledSaveButton size="small">Save</StyledSaveButton>
+        </StyledButtonContainer>
       </StyledWrapper>
     </ModalLayout>
   );

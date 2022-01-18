@@ -1,7 +1,6 @@
 import { Icon } from '@parakeet/ui';
 import { useState } from 'react';
 import { format } from 'date-fns';
-
 import {
   StyledWrapper,
   StyledForm,
@@ -9,10 +8,15 @@ import {
   StyledPeopleButton,
   StyledLocationButton,
   StyledInputWrapper,
-  StyledInputDateRangeWrapper,
   StyledButtonContainer,
-  StyledDateTimeRange,
-  StyledDateRangeText,
+  StyledDateTimeContainer,
+  StyledContentContainer,
+  StyledDateTimeText,
+  StyledTimeZoneText,
+  StyledTimeButtonText,
+  StyledTimeButton,
+  StyledTimeIconButton,
+  StyledCalendarContainer,
 } from './EventTab.style';
 
 type DateRangeType = [(Date | undefined)?, (Date | undefined)?] | null;
@@ -27,30 +31,26 @@ export const EventModalEventTab = () => {
     setDateRange(value);
   };
 
-  console.log(dateRange && dateRange[0]?.toLocaleString());
-  console.log(dateRange && dateRange[0]?.toLocaleDateString());
-
   return (
     <StyledWrapper>
       <StyledForm>
         <StyledInputWrapper>
           <StyledInput appearance="tertiary" placeholder="Add title" />
         </StyledInputWrapper>
-        <StyledInputDateRangeWrapper>
-          <StyledDateRangeText>
-            {dateRange && format(dateRange[0]!, ' dd MMMM yyyy kk : mm')} to
-            {dateRange && format(dateRange[1]!, ' dd MMMM yyyy kk : mm')}
-          </StyledDateRangeText>
-          <StyledDateTimeRange
-            disableClock={true}
-            onChange={handleChange}
-            value={dateRange}
-            calendarIcon={<Icon name="CalendarIcon" size={22} />}
-            disableCalendar={false}
-            clearIcon={'Clear'}
-            required
-          />
-        </StyledInputDateRangeWrapper>
+        <StyledDateTimeContainer>
+          <StyledTimeIconButton>
+            <Icon name="ClockIcon" size={16} />
+          </StyledTimeIconButton>
+          <StyledContentContainer>
+            <StyledDateTimeText>
+              Thursday. December 5 12:00pm - 1:00pm
+            </StyledDateTimeText>
+            <StyledTimeZoneText>Time zone - Does not repeat</StyledTimeZoneText>
+            <StyledTimeButton>
+              <StyledTimeButtonText>Find a time</StyledTimeButtonText>
+            </StyledTimeButton>
+          </StyledContentContainer>
+        </StyledDateTimeContainer>
 
         <StyledButtonContainer>
           <StyledPeopleButton
@@ -67,6 +67,18 @@ export const EventModalEventTab = () => {
             add location
           </StyledLocationButton>
         </StyledButtonContainer>
+
+        <StyledCalendarContainer>
+          <StyledTimeIconButton>
+            <Icon name="SecondaryCalendarIcon" size={16} />
+          </StyledTimeIconButton>
+          <StyledContentContainer>
+            <StyledDateTimeText>John Deo</StyledDateTimeText>
+            <StyledTimeZoneText>
+              Busy - Default visibllity - notity 30 minutes before
+            </StyledTimeZoneText>
+          </StyledContentContainer>
+        </StyledCalendarContainer>
       </StyledForm>
     </StyledWrapper>
   );
