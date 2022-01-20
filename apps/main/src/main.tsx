@@ -15,6 +15,7 @@ import CustomerModal from './components/CustomerModal/CustomerModal';
 import { EventModal } from './components/EventModal/EventModal';
 import { ModalContextProvider } from './context/ModalContext';
 import { CalendarSchedule } from './components/Calendar/Calendar';
+import { CreateSchedule } from './components/CreateSchedule/CreateSchedule';
 
 const StyledAppWrapper = styled.div`
   background-color: #fff;
@@ -27,7 +28,7 @@ ReactDOM.render(
         <ModalContextProvider>
           <StyledAppWrapper>
             <Routes>
-              <Route path="/" element={<CalendarSchedule />} />
+              <Route path="/" element={<CreateSchedule />} />
               <Route path={'/login'} element={<Login />} />
               <Route path={'/signup'} element={<Signup />} />
               <Route path={'/recovery'} element={<Recovery />} />

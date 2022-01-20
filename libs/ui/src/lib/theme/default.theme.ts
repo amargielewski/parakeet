@@ -36,6 +36,7 @@ export const defaultTheme = {
     calendar_background_primary: palette.mirage_light,
     calendar_background_secondary: palette.mirage,
     calendar_background_tile_hover: palette.gray,
+    calendar_schedule_tile_hover: palette.cornflower_blue,
   },
   ...globalConfig,
 };
