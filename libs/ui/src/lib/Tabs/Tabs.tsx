@@ -12,6 +12,8 @@ type TabContentProps = {
   name: string;
 };
 
+type TabAppereanceProps = 'primary' | 'secondary';
+
 export type TabsProps = {
   tabs: TabContentProps[];
   defaultTab: string;
