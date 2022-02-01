@@ -116,12 +116,12 @@ const StyledCalendar = styled(Calendar)`
 
 const StyledButton = styled(Button)`
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 `;
 
 const StyledButtonSecondary = styled(Button)`
   text-transform: capitalize;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 30px;
 `;
 
@@ -132,7 +132,7 @@ const StyledCalendarWrapper = styled.div`
 `;
 
 const StyledInputWrapper = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
 `;
 const StyledInputText = styled(TextLarge)`
   margin-bottom: 20px;

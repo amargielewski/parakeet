@@ -8,7 +8,7 @@ import LampImage from '../../Assets/Lamp.svg';
 import { SidebarUser } from './SidebarUser/SidebarUser';
 
 export const StyledWrapper = styled.div`
-  max-width: 218px;
+  max-width: 220px;
   width: 100%;
   height: 100vh;
   background: ${({ theme }) => theme.colors.sidebar_primary};
@@ -91,43 +91,43 @@ export const Sidebar = () => {
             linkText="analytics"
             iconName="AnalyticsIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/analytics'}
           />
           <SidebarLink
             linkText="invoice"
             iconName="InvoiceIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/invoice'}
           />
           <SidebarLink
             linkText="schedule"
             iconName="ScheduleIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/schedule'}
           />
           <SidebarLink
             linkText="calendar"
             iconName="CalendarIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/calendar'}
           />
           <SidebarLink
             linkText="messages"
             iconName="MessagesIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/messages'}
           />
           <SidebarLink
             linkText="notification"
             iconName="NotificationIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/notification'}
           />
           <SidebarLink
             linkText="settings"
             iconName="SettingsIcon"
             iconSize={24}
-            linkTo={'/'}
+            linkTo={'/settings'}
           />
         </StyledLinkContainer>
         <StyledUpgradeContainer>

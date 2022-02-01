@@ -1,24 +1,18 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ThemeProvider, themeVariant } from '@parakeet/ui';
+import { Sidebar, ThemeProvider, themeVariant } from '@parakeet/ui';
 
 import styled from 'styled-components';
-import App from './app/app';
 import { Login } from './views/Login/Login';
 import { Signup } from './views/Signup/Signup';
-import { AuthLayout } from './components/_layout/AuthLayout/AuthLayout';
 import { Recovery } from './views/PasswordRecovery/Recovery';
-import { ModalLayout } from './components/_layout/ModalLayout.tsx/ModalLayout';
-import { ProductModal } from './components/ProductModal/ProductModal';
-import CustomerModal from './components/CustomerModal/CustomerModal';
 import { EventModal } from './components/EventModal/EventModal';
 import { ModalContextProvider } from './context/ModalContext';
-import { CalendarSchedule } from './components/Calendar/Calendar';
-import { CreateSchedule } from './components/CreateSchedule/CreateSchedule';
+import { Calendar } from './views/Calendar/Calendar';
 
 const StyledAppWrapper = styled.div`
-  background-color: #fff;
+  margin-left: 220px;
 `;
 
 ReactDOM.render(
@@ -26,9 +20,10 @@ ReactDOM.render(
     <BrowserRouter>
       <ThemeProvider theme={themeVariant.Default}>
         <ModalContextProvider>
+          <Sidebar />
           <StyledAppWrapper>
             <Routes>
-              <Route path="/" element={<CreateSchedule />} />
+              <Route path="/calendar" element={<Calendar />} />
               <Route path={'/login'} element={<Login />} />
               <Route path={'/signup'} element={<Signup />} />
               <Route path={'/recovery'} element={<Recovery />} />

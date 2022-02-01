@@ -4,14 +4,13 @@ import { Icon } from '@parakeet/ui';
 const StyledCalendarWrapper = styled.div`
   max-width: 870px;
   width: 100%;
-  margin-top: 50px;
-  margin-left: 50px;
 `;
 
 const StyledCalendar = styled(Calendar)`
   background: ${({ theme }) => theme.colors.calendar_background_primary};
   width: 100%;
   color: ${({ theme }) => theme.colors.text_primary};
+  border: none;
   border-radius: 10px 10px 0px 0px;
 
   .react-calendar__month-view__weekdays__weekday {
